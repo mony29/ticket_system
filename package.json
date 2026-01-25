@@ -1,0 +1,17 @@
+{
+  "name": "ticket-system",
+  "version": "1.0.0",
+  "private": true,
+"workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:admin": "npm run dev -w ticket-admin-web",
+    "dev:public": "npm run dev -w ticket-public-web",
+    "dev:api": "npm run dev -w ticket-api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
